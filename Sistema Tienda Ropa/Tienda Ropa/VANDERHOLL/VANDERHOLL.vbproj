@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{46DC23FE-9DCB-4413-B25E-5DD2922268C9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>VANDERHOLL.My.MyApplication</StartupObject>
+    <RootNamespace>VANDERHOLL</RootNamespace>
+    <AssemblyName>VANDERHOLL</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Nahuel\Desktop\Codigo\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>VANDERHOLL.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>VANDERHOLL.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>08812570EEFDBCD37A943DA5C7E08C794F68BE8C</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>VANDERHOLL_ClaveTemporal.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>..\packages\iTextSharp.5.5.11\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entidades\Articulos.vb" />
+    <Compile Include="Entidades\Horario.vb" />
+    <Compile Include="Entidades\Parametros.vb" />
+    <Compile Include="Entidades\Proveedor.vb" />
+    <Compile Include="Entidades\Compra.vb" />
+    <Compile Include="Entidades\DetalleCompra.vb" />
+    <Compile Include="Entidades\DetalleVenta.vb" />
+    <Compile Include="Entidades\TipoPago.vb" />
+    <Compile Include="Entidades\Usuario.vb" />
+    <Compile Include="Entidades\Venta.vb" />
+    <Compile Include="Entidades\VentaCuota.vb" />
+    <Compile Include="Gestores\CodigosBarra.vb" />
+    <Compile Include="Gestores\ConexionMySQL.vb" />
+    <Compile Include="Gestores\Gestores Compra.vb" />
+    <Compile Include="Gestores\GestoresArticulos.vb" />
+    <Compile Include="Gestores\GestoresVenta.vb" />
+    <Compile Include="Gestores\GestorHorarios.vb" />
+    <Compile Include="Gestores\GestorParametros.vb" />
+    <Compile Include="Gestores\GestorProveedores.vb" />
+    <Compile Include="Pantallas\ActualizarPrecios.Designer.vb">
+      <DependentUpon>ActualizarPrecios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\ActualizarPrecios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Compras.Designer.vb">
+      <DependentUpon>Compras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Compras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Datos Articulo.Designer.vb">
+      <DependentUpon>Datos Articulo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Datos Articulo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\GenerarCodigIoBarras.Designer.vb">
+      <DependentUpon>GenerarCodigIoBarras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\GenerarCodigIoBarras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\HorariosApertura.Designer.vb">
+      <DependentUpon>HorariosApertura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\HorariosApertura.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\ListaArticulos.Designer.vb">
+      <DependentUpon>ListaArticulos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\ListaArticulos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\ListaProveedores.Designer.vb">
+      <DependentUpon>ListaProveedores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\ListaProveedores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\ListaStockCritico.Designer.vb">
+      <DependentUpon>ListaStockCritico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\ListaStockCritico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\NuevaCompra.Designer.vb">
+      <DependentUpon>NuevaCompra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\NuevaCompra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\NuevaVenta.Designer.vb">
+      <DependentUpon>NuevaVenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\NuevaVenta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\NuevoArticulo.Designer.vb">
+      <DependentUpon>NuevoArticulo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\NuevoArticulo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\NuevoProveedor.Designer.vb">
+      <DependentUpon>NuevoProveedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\NuevoProveedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\PantallaPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\PantallaPrincipal.Designer.vb">
+      <DependentUpon>PantallaPrincipal.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Pantallas\ParametrosSistema.Designer.vb">
+      <DependentUpon>ParametrosSistema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\ParametrosSistema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Ventas.Designer.vb">
+      <DependentUpon>Ventas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Ventas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pantallas\ActualizarPrecios.resx">
+      <DependentUpon>ActualizarPrecios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Compras.resx">
+      <DependentUpon>Compras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Datos Articulo.resx">
+      <DependentUpon>Datos Articulo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\GenerarCodigIoBarras.resx">
+      <DependentUpon>GenerarCodigIoBarras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\HorariosApertura.resx">
+      <DependentUpon>HorariosApertura.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\ListaArticulos.resx">
+      <DependentUpon>ListaArticulos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\ListaProveedores.resx">
+      <DependentUpon>ListaProveedores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\ListaStockCritico.resx">
+      <DependentUpon>ListaStockCritico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\NuevaCompra.resx">
+      <DependentUpon>NuevaCompra.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\NuevaVenta.resx">
+      <DependentUpon>NuevaVenta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\NuevoArticulo.resx">
+      <DependentUpon>NuevoArticulo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\NuevoProveedor.resx">
+      <DependentUpon>NuevoProveedor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\PantallaPrincipal.resx">
+      <DependentUpon>PantallaPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\ParametrosSistema.resx">
+      <DependentUpon>ParametrosSistema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Ventas.resx">
+      <DependentUpon>Ventas.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="VANDERHOLL_ClaveTemporal.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\Fondo.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

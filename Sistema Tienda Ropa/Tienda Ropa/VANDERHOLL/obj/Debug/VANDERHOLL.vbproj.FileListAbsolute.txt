@@ -1,0 +1,62 @@
+c:\users\nahuel\documents\visual studio 2013\Projects\VANDERHOLL\VANDERHOLL\bin\Debug\VANDERHOLL.exe.config
+c:\users\nahuel\documents\visual studio 2013\Projects\VANDERHOLL\VANDERHOLL\bin\Debug\VANDERHOLL.exe
+c:\users\nahuel\documents\visual studio 2013\Projects\VANDERHOLL\VANDERHOLL\bin\Debug\VANDERHOLL.pdb
+c:\users\nahuel\documents\visual studio 2013\Projects\VANDERHOLL\VANDERHOLL\bin\Debug\VANDERHOLL.xml
+c:\users\nahuel\documents\visual studio 2013\Projects\VANDERHOLL\VANDERHOLL\obj\Debug\VANDERHOLL.PantallaPrincipal.resources
+c:\users\nahuel\documents\visual studio 2013\Projects\VANDERHOLL\VANDERHOLL\obj\Debug\VANDERHOLL.Resources.resources
+c:\users\nahuel\documents\visual studio 2013\Projects\VANDERHOLL\VANDERHOLL\obj\Debug\VANDERHOLL.vbproj.GenerateResource.Cache
+c:\users\nahuel\documents\visual studio 2013\Projects\VANDERHOLL\VANDERHOLL\obj\Debug\VANDERHOLL.exe
+c:\users\nahuel\documents\visual studio 2013\Projects\VANDERHOLL\VANDERHOLL\obj\Debug\VANDERHOLL.xml
+c:\users\nahuel\documents\visual studio 2013\Projects\VANDERHOLL\VANDERHOLL\obj\Debug\VANDERHOLL.pdb
+C:\Users\Nahuel\Documents\Visual Studio 2013\Projects\VANDERHOLL\VANDERHOLL\obj\Debug\VANDERHOLL.NuevaCompra.resources
+C:\Users\Nahuel\Documents\Visual Studio 2013\Projects\VANDERHOLL\VANDERHOLL\obj\Debug\VANDERHOLL.ListaProveedores.resources
+C:\Users\Nahuel\Documents\Visual Studio 2013\Projects\VANDERHOLL\VANDERHOLL\obj\Debug\VANDERHOLL.NuevoProveedor.resources
+C:\Users\Nahuel\Documents\Visual Studio 2013\Projects\VANDERHOLL\VANDERHOLL\obj\Debug\VANDERHOLL.ListaArticulos.resources
+C:\Users\Nahuel\Documents\Visual Studio 2013\Projects\VANDERHOLL\VANDERHOLL\obj\Debug\VANDERHOLL.NuevoArticulo.resources
+C:\Users\Nahuel\Documents\Visual Studio 2013\Projects\VANDERHOLL\VANDERHOLL\bin\Debug\itextsharp.dll
+C:\Users\Nahuel\Documents\Visual Studio 2013\Projects\VANDERHOLL\VANDERHOLL\bin\Debug\itextsharp.xml
+C:\Users\Nahuel\Documents\Visual Studio 2013\Projects\VANDERHOLL\VANDERHOLL\obj\Debug\VANDERHOLL.vbprojResolveAssemblyReference.cache
+C:\Users\Nahuel\documents\visual studio 2013\Projects\VANDERHOLL\VANDERHOLL\obj\Debug\VANDERHOLL.GenerarCodigIoBarras.resources
+C:\Users\Nahuel\documents\visual studio 2013\Projects\VANDERHOLL\VANDERHOLL\obj\Debug\VANDERHOLL.NuevaVenta.resources
+C:\Users\Nahuel\documents\visual studio 2013\Projects\VANDERHOLL\VANDERHOLL\obj\Debug\VANDERHOLL.ListaStockCritico.resources
+C:\Users\Nahuel\documents\visual studio 2013\Projects\VANDERHOLL\VANDERHOLL\obj\Debug\VANDERHOLL.ParametrosSistema.resources
+C:\Users\Nahuel\documents\visual studio 2013\Projects\VANDERHOLL\VANDERHOLL\bin\Debug\VANDERHOLL.exe.manifest
+C:\Users\Nahuel\documents\visual studio 2013\Projects\VANDERHOLL\VANDERHOLL\bin\Debug\VANDERHOLL.application
+C:\Users\Nahuel\documents\visual studio 2013\Projects\VANDERHOLL\VANDERHOLL\obj\Debug\VANDERHOLL.exe.manifest
+C:\Users\Nahuel\documents\visual studio 2013\Projects\VANDERHOLL\VANDERHOLL\obj\Debug\VANDERHOLL.application
+C:\Users\Nahuel\Documents\Visual Studio 2013\Projects\VANDERHOLL\VANDERHOLL\obj\Debug\VANDERHOLL.Datos_Articulo.resources
+C:\Users\Nahuel\documents\visual studio 2013\Projects\VANDERHOLL\VANDERHOLL\obj\Debug\VANDERHOLL.Ventas.resources
+C:\Users\Nahuel\documents\visual studio 2013\Projects\VANDERHOLL\VANDERHOLL\obj\Debug\VANDERHOLL.Compras.resources
+C:\Users\Nahuel\documents\visual studio 2013\Projects\VANDERHOLL\VANDERHOLL\obj\Debug\VANDERHOLL.HorariosApertura.resources
+C:\Users\Nahuel\Documents\Visual Studio 2013\Projects\VANDERHOLL\VANDERHOLL\obj\Debug\VANDERHOLL.ActualizarPrecios.resources
+C:\Users\Nahuel\Desktop\Tienda Ropa\VANDERHOLL\bin\Debug\VANDERHOLL.exe.config
+C:\Users\Nahuel\Desktop\Tienda Ropa\VANDERHOLL\obj\Debug\VANDERHOLL.exe
+C:\Users\Nahuel\Desktop\Tienda Ropa\VANDERHOLL\obj\Debug\VANDERHOLL.xml
+C:\Users\Nahuel\Desktop\Tienda Ropa\VANDERHOLL\obj\Debug\VANDERHOLL.pdb
+C:\Users\Nahuel\Desktop\Tienda Ropa\VANDERHOLL\bin\Debug\VANDERHOLL.exe.manifest
+C:\Users\Nahuel\Desktop\Tienda Ropa\VANDERHOLL\bin\Debug\VANDERHOLL.application
+C:\Users\Nahuel\Desktop\Tienda Ropa\VANDERHOLL\bin\Debug\VANDERHOLL.exe
+C:\Users\Nahuel\Desktop\Tienda Ropa\VANDERHOLL\bin\Debug\VANDERHOLL.pdb
+C:\Users\Nahuel\Desktop\Tienda Ropa\VANDERHOLL\bin\Debug\VANDERHOLL.xml
+C:\Users\Nahuel\Desktop\Tienda Ropa\VANDERHOLL\bin\Debug\itextsharp.dll
+C:\Users\Nahuel\Desktop\Tienda Ropa\VANDERHOLL\bin\Debug\itextsharp.xml
+C:\Users\Nahuel\Desktop\Tienda Ropa\VANDERHOLL\obj\Debug\VANDERHOLL.vbprojResolveAssemblyReference.cache
+C:\Users\Nahuel\Desktop\Tienda Ropa\VANDERHOLL\obj\Debug\VANDERHOLL.ActualizarPrecios.resources
+C:\Users\Nahuel\Desktop\Tienda Ropa\VANDERHOLL\obj\Debug\VANDERHOLL.Compras.resources
+C:\Users\Nahuel\Desktop\Tienda Ropa\VANDERHOLL\obj\Debug\VANDERHOLL.Datos_Articulo.resources
+C:\Users\Nahuel\Desktop\Tienda Ropa\VANDERHOLL\obj\Debug\VANDERHOLL.GenerarCodigIoBarras.resources
+C:\Users\Nahuel\Desktop\Tienda Ropa\VANDERHOLL\obj\Debug\VANDERHOLL.HorariosApertura.resources
+C:\Users\Nahuel\Desktop\Tienda Ropa\VANDERHOLL\obj\Debug\VANDERHOLL.ListaArticulos.resources
+C:\Users\Nahuel\Desktop\Tienda Ropa\VANDERHOLL\obj\Debug\VANDERHOLL.ListaProveedores.resources
+C:\Users\Nahuel\Desktop\Tienda Ropa\VANDERHOLL\obj\Debug\VANDERHOLL.ListaStockCritico.resources
+C:\Users\Nahuel\Desktop\Tienda Ropa\VANDERHOLL\obj\Debug\VANDERHOLL.NuevaCompra.resources
+C:\Users\Nahuel\Desktop\Tienda Ropa\VANDERHOLL\obj\Debug\VANDERHOLL.NuevaVenta.resources
+C:\Users\Nahuel\Desktop\Tienda Ropa\VANDERHOLL\obj\Debug\VANDERHOLL.NuevoArticulo.resources
+C:\Users\Nahuel\Desktop\Tienda Ropa\VANDERHOLL\obj\Debug\VANDERHOLL.NuevoProveedor.resources
+C:\Users\Nahuel\Desktop\Tienda Ropa\VANDERHOLL\obj\Debug\VANDERHOLL.PantallaPrincipal.resources
+C:\Users\Nahuel\Desktop\Tienda Ropa\VANDERHOLL\obj\Debug\VANDERHOLL.Resources.resources
+C:\Users\Nahuel\Desktop\Tienda Ropa\VANDERHOLL\obj\Debug\VANDERHOLL.ParametrosSistema.resources
+C:\Users\Nahuel\Desktop\Tienda Ropa\VANDERHOLL\obj\Debug\VANDERHOLL.Ventas.resources
+C:\Users\Nahuel\Desktop\Tienda Ropa\VANDERHOLL\obj\Debug\VANDERHOLL.vbproj.GenerateResource.Cache
+C:\Users\Nahuel\Desktop\Tienda Ropa\VANDERHOLL\obj\Debug\VANDERHOLL.exe.manifest
+C:\Users\Nahuel\Desktop\Tienda Ropa\VANDERHOLL\obj\Debug\VANDERHOLL.application

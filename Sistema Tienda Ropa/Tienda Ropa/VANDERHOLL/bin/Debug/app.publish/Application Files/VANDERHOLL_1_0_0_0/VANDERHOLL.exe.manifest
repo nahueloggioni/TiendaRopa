@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="VANDERHOLL.exe" version="1.0.0.0" publicKeyToken="70a1ed5218dd3962" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="VANDERHOLL" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="VANDERHOLL.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el 
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la 
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="itextsharp.dll" size="4063232">
+      <assemblyIdentity name="itextsharp" version="5.5.11.0" publicKeyToken="8354AE6D2174DDCA" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>jywYC4M6t+Nvv2nv0ei996/eJ3HE04faLQlSKbTym9M=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VANDERHOLL.exe" size="133632">
+      <assemblyIdentity name="VANDERHOLL" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>sdq/2LKoECD3kWdCyM56PQGX/l962hwB6RVeJcUalnk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="VANDERHOLL.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-UF9ISUE\Nahuel" issuerKeyHash="5a02bb57f67e401d8342b85c0e3dfadb8a46bb1a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>B1D8nVe6rw/80J4aNfTNOOeOUdNwyeG2RqrtExMhIgI=</DigestValue></Reference></SignedInfo><SignatureValue>gnJjLTBccsHAAse8NTFyhQRDTVh+GeFD+fG3DD02eLERvGhXcyCJwEZiHxiKtrJcfEyw0IGQgCeaK7W7vtqCGku4C1MM3BZqOYBVcil5QA4yhqsWK/B5vBySBEtMRJQp9b6N7f40ITp0rlDUkMM02u7CFGmG7pMVay9xFBJ8KXQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3N6UI9pg3+iJkD4fPy0Cd83SHP6KdRpLa8RgGyjy72C2n3WuZrzIUMbJbtJlspYhw7vhTsU9emdp+Sd4GpWEUPqHiDww9j0PtCC8HIBCkmRuYP7XyjU2IkYHFnCOXjRMq8ikLhdLqS+kEQ46ie6XBTk3EGgabB9FMeYmmfJ7r8E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0222211313edaa46b6e1c970d3518ee738cdf4351a9ed0fc0fafba579dfc5007" Description="" Url=""><as:assemblyIdentity name="VANDERHOLL.exe" version="1.0.0.0" publicKeyToken="70a1ed5218dd3962" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-UF9ISUE\Nahuel</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>mY9JuZWvYoYHJ5PwgLxJLuN6q3c9Dq3RBEtB6WauAcU=</DigestValue></Reference></SignedInfo><SignatureValue>y22qAQIdVimUJ5k1qHUJnWYwFPUTBO5WFcCNQZ8Tc7KlF2vm6yD8Lv6DwWPfJB1lani1chonJn39Om0NPv/5IdxAtodvFtWK7bbwg1obVKSndlb5tlU/6iYzDlEo8VnpNYdD1O/JX8+lR9ZsrM9wsfvydmKEHj1T2MKVQ3BZgGc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3N6UI9pg3+iJkD4fPy0Cd83SHP6KdRpLa8RgGyjy72C2n3WuZrzIUMbJbtJlspYhw7vhTsU9emdp+Sd4GpWEUPqHiDww9j0PtCC8HIBCkmRuYP7XyjU2IkYHFnCOXjRMq8ikLhdLqS+kEQ46ie6XBTk3EGgabB9FMeYmmfJ7r8E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQIWXPqPfsTrxFkDrGFAUNaDANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtAFUARgA5AEkAUwBVAEUAXABOAGEAaAB1AGUAbDAeFw0xNzA4MTcxODA2MTBaFw0xODA4MTgwMDA2MTBaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0AVQBGADkASQBTAFUARQBcAE4AYQBoAHUAZQBsMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDc3pQj2mDf6ImQPh8/LQJ3zdIc/op1GktrxGAbKPLvYLafda5mvMhQxslu0mWyliHDu+FOxT16Z2n5J3galYRQ+oeIPDD2PQ+0ILwcgEKSZG5g/tfKNTYiRgcWcI5eNEyryKQuF0upL6QRDjqJ7pcFOTcQaBpsH0Ux5iaZ8nuvwQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBALmfhAur3yexyNahOw9NXTH+S3MbLX07fE2TDMwey+24BopMwsuj6BgfGqMLsxPR8G5lHCz1/Gd3/RSJkEfEqI81qfBn/YBo6eRjo1DRvietEyc29+mL9iZNV6Dm0MYhyDPi5H6EfQ88I019WmwD3y4viMH9vxZYuM1j/2mwWGWL</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
